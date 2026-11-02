@@ -1,0 +1,27 @@
+$ python step_json.py
+=== JSON ===
+{
+  "id": 42,
+  "name": "Анна Смирнова",
+  "age": 22,
+  "is_student": true,
+  "courses": [
+    "Математика",
+    "Физика",
+    "Информатика"
+  ],
+  "address": {
+    "city": "Москва",
+    "zip": "101000"
+  }
+}
+Размер: 253 байт
+Десериализация успешна: Анна Смирнова
+Все поля совпадают с исходными: True
+
+$ python step_protobuf.py
+=== PROTOBUF ===
+HEX: 082a1219d090d0bdd0bdd0b020d0a1d0bcd0b8d180d0bdd0bed0b2d0b0181620012a14d09cd0b0d182d0b5d0bcd0b0d182d0b8d0bad0b02a0cd0a4d0b8d0b7d0b8d0bad0b02a16d098d0bdd184d0bed180d0bcd0b0d182d0b8d0bad0b032160a0cd09cd0bed181d0bad0b2d0b01206313031303030
+Размер: 117 байт
+Десериализация успешна: Анна Смирнова
+Все поля совпадают с исходными: True

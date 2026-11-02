@@ -1,0 +1,11 @@
+$ python server.py
+Сервер слушает 127.0.0.1:40055...
+=== Получено 157 байт, формат: msgpack ===
+HEX: 86a269642aa46e616d65b9d090d0bdd0bdd0b020d0a1d0bcd0b8d180d0bdd0bed0b2d0b0a361676516aa69735f73747564656e74c3a7636f757273657393b4d09cd0b0d182d0b5d0bcd0b0d182d0b8d0bad0b0acd0a4d0b8d0b7d0b8d0bad0b0b6d098d0bdd184d0bed180d0bcd0b0d182d0b8d0bad0b0a76164647265737382a463697479acd09cd0bed181d0bad0b2d0b0a37a6970a6313031303030
+TEXT: <не текст, бинарные данные>
+DATA: {'id': 42, 'name': 'Анна Смирнова', 'age': 22, 'is_student': True, 'courses': ['Математика', 'Физика', 'Информатика'], 'address': {'city': 'Москва', 'zip': '101000'}}
+[СОХРАНЕНО] received/message_msgpack.msgpack (157 байт)
+
+$ python client.py --format msgpack
+Отправка в формате msgpack, размер: 157 байт
+Отправлено. Сервер подтвердил сохранение.

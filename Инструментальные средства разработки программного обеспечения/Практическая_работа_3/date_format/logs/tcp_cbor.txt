@@ -1,0 +1,11 @@
+$ python server.py
+Сервер слушает 127.0.0.1:34989...
+=== Получено 159 байт, формат: cbor ===
+HEX: a6626964182a646e616d657819d090d0bdd0bdd0b020d0a1d0bcd0b8d180d0bdd0bed0b2d0b063616765166a69735f73747564656e74f567636f75727365738374d09cd0b0d182d0b5d0bcd0b0d182d0b8d0bad0b06cd0a4d0b8d0b7d0b8d0bad0b076d098d0bdd184d0bed180d0bcd0b0d182d0b8d0bad0b06761646472657373a264636974796cd09cd0bed181d0bad0b2d0b0637a697066313031303030
+TEXT: <не текст, бинарные данные>
+DATA: {'id': 42, 'name': 'Анна Смирнова', 'age': 22, 'is_student': True, 'courses': ['Математика', 'Физика', 'Информатика'], 'address': {'city': 'Москва', 'zip': '101000'}}
+[СОХРАНЕНО] received/message_cbor.cbor (159 байт)
+
+$ python client.py --format cbor
+Отправка в формате cbor, размер: 159 байт
+Отправлено. Сервер подтвердил сохранение.

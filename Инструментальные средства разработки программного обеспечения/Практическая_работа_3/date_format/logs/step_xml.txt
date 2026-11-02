@@ -1,0 +1,5 @@
+=== XML ===
+<profile><id>42</id><name>Анна Смирнова</name><age>22</age><is_student>True</is_student><courses><item>Математика</item><item>Физика</item><item>Информатика</item></courses><address><city>Москва</city><zip>101000</zip></address></profile>
+Размер: 283 байт
+Десериализация успешна: Анна Смирнова
+Все поля совпадают с исходными: True
