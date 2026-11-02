@@ -1,0 +1,5 @@
+PyYAML==6.0.3
+msgpack==1.2.1
+cbor2==6.2.0.post1
+protobuf==7.36.2
+grpcio-tools==1.85.1
