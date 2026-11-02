@@ -1,0 +1,13 @@
+syntax = "proto3";
+message Address {
+  string city = 1;
+  string zip = 2;
+}
+message Profile {
+  int32 id = 1;
+  string name = 2;
+  int32 age = 3;
+  bool is_student = 4;
+  repeated string courses = 5;
+  Address address = 6;
+}
