@@ -1,0 +1,50 @@
+[
+  {
+    "format": "json",
+    "wire_size_bytes": 211,
+    "serialize_us": 2.587,
+    "deserialize_us": 2.462,
+    "readable": true,
+    "needs_schema": false
+  },
+  {
+    "format": "xml",
+    "wire_size_bytes": 283,
+    "serialize_us": 25.211,
+    "deserialize_us": 13.699,
+    "readable": true,
+    "needs_schema": false
+  },
+  {
+    "format": "yaml",
+    "wire_size_bytes": 182,
+    "serialize_us": 203.724,
+    "deserialize_us": 338.312,
+    "readable": true,
+    "needs_schema": false
+  },
+  {
+    "format": "msgpack",
+    "wire_size_bytes": 157,
+    "serialize_us": 1.012,
+    "deserialize_us": 1.082,
+    "readable": false,
+    "needs_schema": false
+  },
+  {
+    "format": "cbor",
+    "wire_size_bytes": 159,
+    "serialize_us": 2.788,
+    "deserialize_us": 2.745,
+    "readable": false,
+    "needs_schema": false
+  },
+  {
+    "format": "protobuf",
+    "wire_size_bytes": 117,
+    "serialize_us": 2.942,
+    "deserialize_us": 3.911,
+    "readable": false,
+    "needs_schema": true
+  }
+]
